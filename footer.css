@@ -1,0 +1,49 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 100px;
+}
+
+.logo img {
+  width: 100px;
+  height: 75px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: #f2eeee;
+  padding: 20px;
+  width: 500px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f6efef;
+}
+
+.contact-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #3055eb;
+  color: #f6f1f1;
+  border: none;
+  cursor: pointer;
+}

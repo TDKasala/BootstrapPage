@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Online Shopping Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <style>
+      /* Styling for a card image */
+      .card-img-top {
+        transition: transform 0.3s;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+    
+      .card-img-top:hover {
+        transform: scale(1.05);
+      }
+    
+      /* Styling for a card container */
+      .card {
+        margin-bottom: 20px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+    
+      /* Styling for a logo */
+      .logo {
+        margin-bottom: 20px;
+      }
+    
+      .logo img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+    
+      /* Styling for the contact form */
+      .contact-form {
+        color: #333;
+        width: 400px;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+    
+      .contact-form input[type="text"],
+      .contact-form input[type="email"],
+      .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid #ccc;
+        background-color: #f9f9f9;
+        color: #333;
+        border-radius: 4px;
+      }
+    
+      .contact-form button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #3055eb;
+        color: #f6f1f1;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+    
+      /* Styling for the footer */
+      .footer,
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f9f9f9;
+        padding: 20px;
+        box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+      }
+    
+      .footer {
+        color: #94b9d1;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    <div class="row justify-content-center">
+      <div class="col-md-8 background text-center">
+        <h1>Online store</h1>
+        <h3>Find all the products you need!</h3><br>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <!-- product card 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="productsimages/Black mouse.jpg" class="card-img-top" alt="Black mouse">
+            <div class="card-body">
+              <h5 class="card-title">Black mouse</h5>
+              <p class="card-text">R100.99</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- product card 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="productsimages/Classic clock.jpg" class="card-img-top" alt="Classic clock">
+            <div class="card-body">
+              <h5 class="card-title">Classic clock</h5>
+              <p class="card-text">R2200.99</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- product card 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="productsimages/Classic TV.jpg" class="card-img-top" alt="Classic TV">
+            <div class="card-body">
+              <h5 class="card-title">Classic TV</h5>
+              <p class="card-text">R4530.99</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- product card 4 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="productsimages/guitar.jpg" class="card-img-top" alt="guitar">
+            <div class="card-body">
+              <h5 class="card-title">guitar</h5>
+              <p class="card-text">R3440.99</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- product card 5 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="productsimages/Huawei P10.jpg" class="card-img-top" alt="Huawei P10">
+            <div class="card-body">
+              <h5 class="card-title">Huawei P10</h5>
+              <p class="card-text">R2550.99</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- product card 6 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="productsimages/Lamp.jpg" class="card-img-top" alt="Lamp">
+            <div class="card-body">
+              <h5 class="card-title">Lamp</h5>
+              <p class="card-text">R1110.99</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- product card 7 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="productsimages/Mouse.jpg" class="card-img-top" alt="Mouse">
+            <div class="card-body">
+              <h5 class="card-title">Mouse</h5>
+              <p class="card-text">R110.99</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- product card 8 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="productsimages/Piano.jpg" class="card-img-top" alt="Piano">
+            <div class="card-body">
+              <h5 class="card-title">Piano</h5>
+              <p class="card-text">R9610.99</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- product card 9 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="productsimages/Tekkies.jpg" class="card-img-top" alt="Tekkies">
+            <div class="card-body">
+              <h5 class="card-title">Tekkies</h5>
+              <p class="card-text">R410.99</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- product card 10 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="productsimages/Used Iphone 13.jpg" class="card-img-top" alt="Used Iphone 13">
+            <div class="card-body">
+              <h5 class="card-title">Used Iphone 13</h5>
+              <p class="card-text">R1010.99</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="logoimage/logo.jpg" alt="Company Logo">
+        </div>
+      </div>
+      
+      <form class="contact-form">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Submit</button>
+      </form>  
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+  
