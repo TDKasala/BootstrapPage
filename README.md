@@ -2,8 +2,6 @@
 
 This is a simple online shopping page template created using HTML and CSS, with Bootstrap for styling. It displays a list of products with images, prices, and a "Buy" button. Users can also find a contact form in the footer for inquiries or feedback.
 
-![Online Shopping Page](screenshot.png)
-
 ## Table of Contents
 
 - [Getting Started](#getting-started)
